@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="add.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="logo-area">
+                <a href="/Initial/index.html"> <img src="/img/privateschool.png" width="250px"alt="error 404"></a>
+            </div>
+        </div>
+        <div class="header-right">
+            <strong>Welcome to the Private School</strong>
+            <br><br>
+            <b5><i><small>"Where education becomes power"</small></i></b5>
+            <form action= "index.html" method="GET">
+                <input type="Username" name="username"placeholder="Username">
+                <input type="Password" name = "fullname"placeholder="Password">
+                <input type="submit" value="Login" style="cursor: pointer;">
+                <br>
+                <a href="#">Not a user?</a>
+            </form>
+        </div>
+        <div class="header-left">
+            <b>&#9742; 211-1234567</b>
+            <br>
+            <b>&#128231;user@gmail.com</b>
+            <br><br>
+            
+        </div>
+    </header>
+    <main>
+        <div class="menu">
+            <ul>
+                <li><i><a href="/Initial/index.html"id="home">Home</a></i>
+                </li>
+                <li><i><a href="/AssignmentsPerStudentPerCourse/index.html">Assignments Per Student Per Course Table</a></i>
+                </li>
+            </ul>
+        </div>
+        <div class="main-center">
+            <div class="error" id="emptyinputs"></div>
+            <form action="/AssignmentsPerStudentPerCourse/index.html"id="myForm"novalidate>
+                <label for="student">Student</label>
+                <input type="text" name="student" id="student" value="Nikos Tsalikis" autocomplete="off"required> <br><br><br>  
+               
+                <label for="coursetitle">Course</label>            
+                <input type="text" name = "coursetitle" id="coursetitle" value="C# Basic" autocomplete="off"required> <br><br><br>
+
+                <label for="assignmenttitle">Assignment</label>            
+                <input type="text" name = "assignmenttitle" id="assignmenttitle" value="C# Test #3" autocomplete="off"required> <br><br><br>
+      
+                <input type="checkbox" id="checkbox" name= "terms" checked required> Αποδέχομαι τους όρους χρήσης<br><br><br>
+                <button class="submit"id="submit" type="submit" >Add</button>
+                <button class="submit"id="edit" type="submit" >Edit</button>
+                <button class="submit"id="update" type="submit" >Update</button>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-left">
+            <h2><i>Learn about us</i></h2>
+            <ul>
+                <li><i class="fab fa-facebook-f"></i><a href="#">  Facebook</a></li>
+                <li><i class="fab fa-instagram"></i><a href="#"> Instagram</a></li>
+                <li><i class="fab fa-twitter-square"></i><a href="#"> Twitter</a></li>
+            </ul>
+        </div>
+        <div class="footer-center">
+            <h1 id="copyrights">By CB12 Marios Syti</h1>
+            <h1 id="copyrights">&copy;Heritage Private School logo</h1>
+        </div>
+        <div class="footer-right">
+            <ul>
+                <h2><i>More</i></h2>
+                <li><i><a href="/PrivateSchoolTrainer/index.html">Trainers'Table</a></i>  
+                </li>
+                <li><i><a href="/PrivateSchoolCourse/index.html">Courses'Table</a></i>   
+                </li>
+                <li><i><a href="/PrivateSchoolStudent/index.html">Students'Table</a></i>
+                </li>
+                <li><i><a href="/PrivateSchoolAssignment/index.html">Assignments'Table</a></i>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js" ></script>
+</body>
+</html>

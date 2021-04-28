@@ -1,0 +1,163 @@
+html,body{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-optical-sizing: 40;
+    height:100%;
+    margin: 0 auto;
+    background-image: linear-gradient(#11998e,#000000);
+}
+#logo-area{
+    padding: 13px;
+}
+header{
+    color:white;
+    padding:50px;
+    text-align: right; 
+}
+a{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.firstform{
+    color:rgb(255,255,255);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header-left{
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    min-height: 140%;
+}
+main{
+    min-height: 57%;
+}
+.main-center table tr th:hover{
+    background-color:#414345;
+}
+.main-center{
+    margin: 0 auto;
+    height: 80%;
+}
+main div form input{
+    width: 110%;
+    height: 30px;
+}
+main div form{
+    color: blanchedalmond;
+}
+main div form label{
+    font-size: 25px;
+    color: blanchedalmond;
+}
+footer h1{
+    font-size: 15px;
+}
+footer{
+    color:white;
+    padding:50px;
+    margin:0;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    bottom: 0;
+    background-image: linear-gradient(#000000,#8cc3be);
+}
+.footer-center{
+    text-align: center;
+    padding: 15px;
+}
+.footer-right{
+    text-align: right;
+    padding: 0 auto;
+}
+footer div ul{
+    list-style: none;
+}
+footer div ul li{
+    font-weight: 700;
+}
+.footer-left{
+    text-align: left;   
+}
+.footer-left ul li{
+    font-size: 15px;
+    padding: 2px;
+}
+.footer-left ul{
+    padding: 0;
+}
+.footer-right ul li a{
+    font-size: 15px;
+    padding: 2px;
+    text-decoration: none;
+}
+.footer-left ul li a{
+    font-size: 15px;
+    padding: 2px;
+    text-decoration: none;
+}
+.footer-right ul li a:hover{
+    background-color:#414345;
+}
+
+.footer-left ul li a:hover{
+    background-color:#414345;
+}
+main h1{
+    text-align: center;
+    color: rgb(156, 124, 18);
+}
+main{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    border-color: black;
+}
+main div{
+    margin: 0 auto;
+}
+main .menu ul li a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 60px;
+    font-family:cursive;
+    color: rgba(199, 199, 199, 0.712);
+}
+main .menu ul li{
+    list-style: none;
+    margin: 20px;
+}
+main .menu ul li:hover{
+    background-color: rgb(1, 8, 5);
+}
+#checkbox{
+    width: auto;
+    font-size: xx-large;
+}
+.submit{
+    display: inline-block;
+    margin: 6px;
+    font-size: inherit;
+    line-height: 1.20;
+    padding: 0.4em 2.7em;
+    font-weight: normal;
+    border-width: 0;
+    border-style: solid;
+    border-radius: 0.2666666667em;
+    cursor: pointer;
+    vertical-align: bottom;
+}
+.submit:hover{
+    background-color: rgb(3, 110, 114);
+}
+.menu ul{
+    margin-top: 150px;
+}
+#copyrights{
+    font-size: 25px;
+}
+#home{
+    color:indianred;
+}
+
+
